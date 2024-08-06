@@ -1,7 +1,7 @@
+import { toast } from "react-toastify";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTitle } from "../hooks/useTitle";
-import { toast } from "react-toastify";
 import { login } from "../services";
 
 export const Login = () => {
