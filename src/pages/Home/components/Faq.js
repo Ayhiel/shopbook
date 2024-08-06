@@ -26,7 +26,7 @@ export const Faq = () => {
 
   return (
     <section className="my-20">
-        <h1 className="text-2xl text-center font-semibold dark:bg-gray-200 mb-5">Frequently Ask Questions</h1>
+        <h1 className="text-2xl text-center font-semibold rounded-md dark:bg-gray-200 mb-5">Frequently Ask Questions</h1>
         <div className="p-6 mb-8 rounded-lg border border-gray-200 shadow-sm dark:border-gray-700 md:mb-12">
             <div className="text-xl">
                 { faqs && faqs.map((faq) => (

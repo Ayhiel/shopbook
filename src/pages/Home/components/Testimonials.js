@@ -2,7 +2,7 @@
 export const Testimonials = () => {
   return (
     <section className="my-20">
-        <h1 className="text-2xl text-center font-semibold dark:bg-gray-200 mb-5">Testimonials</h1>
+        <h1 className="text-2xl text-center font-semibold rounded-md dark:bg-gray-200 mb-5">Testimonials</h1>
         <div className="grid gap-8 p-6 mb-8 rounded-lg border border-gray-200 shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2">
             <figure className="max-w-screen-md mx-auto text-center mb-8">
                 <blockquote>

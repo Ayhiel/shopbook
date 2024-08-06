@@ -1,7 +1,16 @@
+import { CartEmpty, CartList } from "../";
+import { useCart } from "../../context";
+import { useTitle } from "../../hooks/useTitle";
+
 export const CartPage = () => {
+
+  const { cartList } = useCart();
+
+  useTitle(`Cart (${cartList.length})`);
+
   return (
     <main>
-      <div>Cart Page</div>
+      { cartList.length ? <CartList /> : <CartEmpty />} 
     </main>
   )
 }

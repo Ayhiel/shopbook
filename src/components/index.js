@@ -4,3 +4,5 @@ export { SearchProduct } from "./Sections/SearchProduct";
 export { ProductCard } from "./Elements/ProductCard";
 export { ScrollToTop } from "./Other/ScrollToTop";
 export { Rating } from "./Elements/Rating";
+export { DropdownLogIn } from "./Elements/DropdownLogIn";
+export { DropdownLogOut } from "./Elements/DropdownLogOut";
